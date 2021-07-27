@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+    color: dimgray
+}
+h1 span{
+    color: orange;
+}
+.half-width img{
+    width: 100%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(38, 38, 39), rgb(105, 71, 255));
+    padding: 20px 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+}
+p{
+    color: dimgray;
+}
+.about-me{
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+}
