@@ -1,7 +1,47 @@
-body{
+body,html{
     margin: 0;
-    
+    padding: 0;
 }
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: coral;
+}
+
+h4{
+    font-size: 50px;
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 3px;
+    color:white;
+}
+
+h4 span{
+    color: rgb(83, 83, 83);
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+header a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20PX;
+    font-weight: 700;
+}
+
 section{
     display: flex;
     margin-bottom: 100px;
@@ -12,7 +52,7 @@ section{
 
 .half-width{
     width:40%;
-    float: left;
+    float: right ;
     margin-left: 5%;
     padding-left: 2%;  
     margin-top: 80px;
@@ -20,7 +60,7 @@ section{
 
 .half-width img{
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 h1{
@@ -33,7 +73,7 @@ h1 span{
 
 .anchor-button{
     text-decoration: none;
-    background: linear-gradient(45deg, rgb(38, 38, 39), rgb(105, 71, 255));
+    background: linear-gradient(45deg, salmon, orange);
     padding: 20px 40px;
     border-radius: 25px;
     color: white;
@@ -45,7 +85,8 @@ p{
 .about-me{
     background-image: url("images/7.png");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
+    background-size: cover;
 }
 #pic-size{
     display: block;
@@ -73,7 +114,7 @@ h3{
 }
 
 
-#baby-web{
+#recipi-block{
     border: 20px solid rgb(255, 255, 255) ;
     border-radius: 40px;
     padding: 10px;
